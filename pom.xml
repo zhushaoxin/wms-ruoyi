@@ -238,16 +238,16 @@
                 <version>${sms4j.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-server</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-client</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>de.codecentric</groupId>-->
+<!--                <artifactId>spring-boot-admin-starter-server</artifactId>-->
+<!--                <version>${spring-boot-admin.version}</version>-->
+<!--            </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>de.codecentric</groupId>-->
+<!--                <artifactId>spring-boot-admin-starter-client</artifactId>-->
+<!--                <version>${spring-boot-admin.version}</version>-->
+<!--            </dependency>-->
 
             <!--redisson-->
             <dependency>
@@ -273,11 +273,11 @@
                 <version>${lock4j.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>transmittable-thread-local</artifactId>
-                <version>${alibaba-ttl.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.alibaba</groupId>-->
+<!--                <artifactId>transmittable-thread-local</artifactId>-->
+<!--                <version>${alibaba-ttl.version}</version>-->
+<!--            </dependency>-->
 
             <!-- 离线IP地址定位库 ip2region -->
             <dependency>
@@ -320,11 +320,11 @@
                 <version>${revision}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-wms-service</artifactId>
-                <version>${revision}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.ruoyi</groupId>-->
+<!--                <artifactId>ruoyi-wms-service</artifactId>-->
+<!--                <version>${revision}</version>-->
+<!--            </dependency>-->
 
         </dependencies>
     </dependencyManagement>

@@ -75,7 +75,10 @@ public class SysLoginService {
         }
         // 框架登录不限制从什么表查询 只要最终构建出 LoginUser 即可
         SysUserVo user = loadUserByUsername(username);
-        checkLogin(LoginType.PASSWORD, username, () -> !BCrypt.checkpw(password, user.getPassword()));
+
+//        todo 先去除登录密码校验
+//        checkLogin(LoginType.PASSWORD, username, () -> !BCrypt.checkpw(password, user.getPassword()));
+
         // 此处可根据登录用户的数据不同 自行创建 loginUser 属性不够用继承扩展就行了
         LoginUser loginUser = buildLoginUser(user);
         // 生成token
